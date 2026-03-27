@@ -15,13 +15,10 @@ function initLenis() {
     smooth: true
   });
 
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
-
-  lenis.on('scroll', ScrollTrigger.update);
+  // Use GSAP ticker so Lenis and ScrollTrigger run on the same frame loop
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000);
+  });
   gsap.ticker.lagSmoothing(0);
 
   return lenis;
@@ -110,6 +107,7 @@ function initCursor() {
   const dot = document.getElementById('cursor-dot');
   const ring = document.getElementById('cursor-ring');
   if (!dot || !ring) return;
+  document.body.classList.add('cursor-active');
 
   let mouseX = 0;
   let mouseY = 0;
@@ -222,10 +220,12 @@ function initThreeBackground() {
   animate();
 
   window.addEventListener('resize', () => {
-    if (!container) return;
-    camera.aspect = container.offsetWidth / container.offsetHeight;
+    const w = container.offsetWidth;
+    const h = container.offsetHeight;
+    if (!w || !h) return;
+    camera.aspect = w / h;
     camera.updateProjectionMatrix();
-    renderer.setSize(container.offsetWidth, container.offsetHeight);
+    renderer.setSize(w, h);
   });
 }
 
@@ -384,6 +384,7 @@ function initBentoHover() {
   const items = document.querySelectorAll('.bento-item');
 
   items.forEach((item) => {
+    if (item.classList.contains('bento-highlight')) return;
     item.addEventListener('mouseenter', () => {
       gsap.to(item, {
         borderColor: '#D4AF37',
