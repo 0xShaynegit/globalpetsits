@@ -697,6 +697,7 @@ section {
 
 .authority-inner {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 3rem;
 }
