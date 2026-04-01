@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Cloudflare
+wrangler.toml
+.wrangler/
+*.wrangler
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build/Dist
+dist/
+build/
+*.log
+
+# Unused assets (inline CSS/JS in index.html)
+css/
+js/
