@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<!--
+  ============================================================
+  ALEX NODELMAN — PET & HOUSE SITTER LANDING PAGE
+  ============================================================
+  Art direction:
+    Trusted, worldly traveller with quiet intimate warmth.
+    Like flipping through a worn travel journal and finding
+    photos of every pet cared for along the way. Editorial
+    confidence, tactile warmth, nothing generic.
+
+  Animation concept: POSTCARD HOMECOMING SYSTEM
+    Elements arrive like postcards landing on a desk —
+    slightly tilted, scaled back, then settling perfectly
+    with soft inertia. Hero stacks photos as travel postcards.
+    Section reveals echo the same "arriving home" settle motion.
+    Route line draws through the Asia section as the signature
+    standout moment.
+
+  Font pairing:
+    Display — Cormorant Garamond (300/400/500 italic)
+      Editorial elegance, warmth, printed quality
+    Body    — Jost (300/400/500)
+      Modern, quiet, refined
+
+  Palette logic:
+    Light: warm parchment #F5EDE0 ground,
+           terracotta #C4622D accent,
+           near-black #18140F text
+    Dark:  deep warm charcoal #141210 ground,
+           same terracotta accent,
+           cream #EDE4D4 text
+
+  Editable placeholders:
+    [Add homeowner testimonial]
+    [Add preferred countries in Asia]
+    [Add pet experience detail]
+    [Add bio paragraph]
+  ============================================================
+-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Experienced pet & house sitter. 8 verified 5-star reviews across Asia and Europe. Cats, dogs, medication management, long sits. Available now." />
+  <title>Alex Nodelman — Trusted Pet & House Sitter</title>
+  <link rel="canonical" href="https://globalpetsits.com/">
+
+  <meta property="og:title" content="Alex Nodelman — Trusted Pet Sitter">
+  <meta property="og:description" content="3 years experience. 8 verified 5-star reviews. Chiang Mai, Hanoi, London, Paris, Tel Aviv. Message on WhatsApp.">
+  <meta property="og:image" content="https://globalpetsits.com/images/alex-smiling-with-golden-dog-indoors-alex-nodelman-alexnodelman.webp">
+  <meta property="og:url" content="https://globalpetsits.com/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alex Nodelman — Trusted Pet Sitter">
+  <meta name="twitter:description" content="3 years experience. 8 verified 5-star reviews. Available across Asia and Europe.">
+  <meta name="twitter:image" content="https://globalpetsits.com/images/alex-smiling-with-golden-dog-indoors-alex-nodelman-alexnodelman.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://globalpetsits.com/#person",
+        "name": "Alex Nodelman",
+        "jobTitle": "Pet & House Sitter",
+        "url": "https://globalpetsits.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/alexandernodelman/",
+          "https://www.trustedhousesitters.com/house-and-pet-sitters/israel/southern-district/ashdod/l/4613767/"
+        ],
+        "telephone": "+972523949964",
+        "areaServed": ["Thailand", "Vietnam", "United Kingdom", "France", "Israel"],
+        "image": "https://globalpetsits.com/images/alex-smiling-with-golden-dog-indoors-alex-nodelman-alexnodelman.webp"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are you available for long sits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. My best sits have been 2 to 8 weeks. Long sits are where I do my best work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you handle medication?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. I'm experienced with daily medications for cats and dogs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you only sit in Asia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. I've worked across the UK, France, Israel, and Vietnam. I go where the good sits are."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you send daily updates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every day. Photos, videos, real reports. You'll never wonder how things are going."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are you verified?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fully verified on TrustedHousesitters and Airbnb. ID, email, phone, all checked."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── CUSTOM PROPERTIES ─────────────────────────────────── */
+    :root {
+      --bg:           #F5EDE0;
+      --bg-2:         #EDE4D4;
+      --bg-3:         #E2D6C4;
+      --surface:      #FAF5EE;
+      --surface-2:    #F0E8D8;
+      --text:         #18140F;
+      --text-muted:   #7A6A5C;
+      --text-faint:   #A8977F;
+      --accent:       #C4622D;
+      --accent-warm:  #D47248;
+      --accent-light: rgba(196,98,45,0.10);
+      --border:       rgba(24,20,15,0.10);
+      --border-mid:   rgba(24,20,15,0.16);
+      --border-str:   rgba(24,20,15,0.22);
+      --sh-sm:  0 2px 8px rgba(24,20,15,0.06);
+      --sh-md:  0 8px 32px rgba(24,20,15,0.10);
+      --sh-lg:  0 20px 60px rgba(24,20,15,0.15);
+      --r:  4px;
+      --r-lg: 8px;
+      --ease: cubic-bezier(0.16,1,0.3,1);
+      --font-d: 'Cormorant Garamond', Georgia, serif;
+      --font-b: 'Jost', system-ui, sans-serif;
+      --max-w: 1160px;
+      /* Fixed panel colours — never flip with theme */
+      --panel-bg: #18140F;
+      --panel-fg: #EDE4D4;
+    }
+
+    [data-theme="dark"] {
+      --bg:           #141210;
+      --bg-2:         #1C1916;
+      --bg-3:         #221E1A;
+      --surface:      #1A1714;
+      --surface-2:    #221E1A;
+      --text:         #EDE4D4;
+      --text-muted:   #9A8A78;
+      --text-faint:   #6A5A48;
+      --accent:       #D47248;
+      --accent-warm:  #E08A60;
+      --accent-light: rgba(212,114,72,0.13);
+      --border:       rgba(237,228,212,0.09);
+      --border-mid:   rgba(237,228,212,0.14);
+      --border-str:   rgba(237,228,212,0.20);
+      --sh-sm:  0 2px 8px rgba(0,0,0,0.30);
+      --sh-md:  0 8px 32px rgba(0,0,0,0.40);
+      --sh-lg:  0 20px 60px rgba(0,0,0,0.52);
+    }
+
+    /* ─── RESET ────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--font-b);
+      font-weight: 300;
+      font-size: clamp(1rem, 1.5vw, 1.125rem);
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+      transition: background 0.35s var(--ease), color 0.35s var(--ease);
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: var(--font-b); cursor: pointer; border: none; background: none; }
+    ul { list-style: none; }
+
+    /* ─── SKIP LINK ─────────────────────────────────────────── */
+    .skip {
+      position: fixed; top: -100%; left: 1rem; z-index: 9999;
+      padding: 0.5rem 1rem; background: var(--accent); color: #fff;
+      font-size: 0.875rem; border-radius: var(--r);
+      transition: top 0.2s;
+    }
+    .skip:focus { top: 1rem; }
+
+    /* ─── TYPOGRAPHY ────────────────────────────────────────── */
+    .d-xl { font-family:var(--font-d); font-weight:300; font-size:clamp(2.8rem,7vw,6rem); line-height:1.02; letter-spacing:-0.025em; }
+    .d-lg { font-family:var(--font-d); font-weight:300; font-size:clamp(2.375rem,4.8vw,4.125rem); line-height:1.08; letter-spacing:-0.02em; }
+    .d-md { font-family:var(--font-d); font-weight:400; font-size:clamp(1.35rem,2.5vw,2rem); line-height:1.2; }
+    .eyebrow {
+      font-family: var(--font-b); font-size: 1.0625rem; font-weight: 500;
+      letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted);
+    }
+    .eyebrow--accent { color: var(--accent); }
+    em { font-style: italic; color: var(--accent); }
+
+    /* ─── LAYOUT ────────────────────────────────────────────── */
+    .wrap { max-width: var(--max-w); margin: 0 auto; padding: 0 clamp(1.25rem,5vw,3rem); }
+    section { padding: clamp(4rem,8vw,7rem) 0; }
+    .divider { width: 100%; height: 1px; background: var(--border); }
+
+    /* ─── POSTCARD HOMECOMING ANIMATION SYSTEM ────────────────
+       Core motion identity — all reveals echo a postcard
+       arriving and settling with gentle inertia.
+       ───────────────────────────────────────────────────────── */
+    @media (prefers-reduced-motion: no-preference) {
+      .pc-arrive {
+        opacity: 0;
+        transform: translateY(26px) rotate(var(--rot, 0deg));
+        transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+        transition-delay: var(--d, 0s);
+        will-change: transform, opacity;
+      }
+      .pc-arrive.in { opacity: 1; transform: translateY(0) rotate(0deg); }
+
+      .pc-up {
+        opacity: 0; transform: translateY(20px);
+        transition: opacity 0.62s var(--ease), transform 0.62s var(--ease);
+        transition-delay: var(--d, 0s);
+      }
+      .pc-up.in { opacity: 1; transform: none; }
+
+      .pc-left {
+        opacity: 0; transform: translateX(-28px);
+        transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+        transition-delay: var(--d, 0s);
+      }
+      .pc-left.in { opacity: 1; transform: none; }
+
+      .pc-right {
+        opacity: 0; transform: translateX(28px);
+        transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+        transition-delay: var(--d, 0s);
+      }
+      .pc-right.in { opacity: 1; transform: none; }
+
+      .pc-scale {
+        opacity: 0; transform: scale(0.94);
+        transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+        transition-delay: var(--d, 0s);
+      }
+      .pc-scale.in { opacity: 1; transform: scale(1); }
+    }
+
+    /* ─── HEADER ─────────────────────────────────────────────── */
+    .hdr {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: clamp(0.9rem,2vw,1.2rem) 0;
+      transition: background 0.4s var(--ease), backdrop-filter 0.4s, box-shadow 0.4s;
+    }
+    .hdr.scrolled {
+      background: rgba(245,237,224,0.93);
+      backdrop-filter: blur(18px) saturate(1.4);
+      box-shadow: 0 1px 0 var(--border);
+    }
+    [data-theme="dark"] .hdr.scrolled {
+      background: rgba(20,18,16,0.93);
+    }
+    .hdr__row {
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    }
+    .wordmark {
+      display: inline-flex; align-items: baseline; gap: 0.3rem;
+      font-family: var(--font-d); font-size: 1.425rem; font-weight: 500; letter-spacing: 0.02em;
+    }
+    .wordmark__dot {
+      width: 5px; height: 5px; border-radius: 50%; background: var(--accent);
+      margin-bottom: 2px; flex-shrink: 0;
+    }
+    .nav {
+      display: flex; align-items: center; gap: clamp(1rem,2.5vw,2rem);
+    }
+    @media (max-width: 680px) { .nav { display: none; } }
+    .nav a {
+      font-size: 1.1875rem; font-weight: 400; letter-spacing: 0.04em;
+      color: var(--text-muted); transition: color 0.2s; padding: 0.25rem 0;
+    }
+    .nav a:hover { color: var(--text); }
+    .hdr__end { display: flex; align-items: center; gap: 0.75rem; }
+
+    .btn-theme {
+      width: 36px; height: 36px; border-radius: 50%;
+      border: 1px solid var(--border-mid);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-muted);
+      transition: border-color 0.2s, color 0.2s, transform 0.35s var(--ease);
+    }
+    .btn-theme:hover { color: var(--text); border-color: var(--border-str); transform: rotate(25deg); }
+    .btn-theme svg { width: 15px; height: 15px; }
+
+    /* ─── BUTTON SYSTEM ─────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-b); font-weight: 500; font-size: 0.875rem;
+      letter-spacing: 0.04em; border-radius: var(--r);
+      transition: background 0.2s, transform 0.22s var(--ease), box-shadow 0.22s, border-color 0.2s, color 0.2s;
+      min-height: 44px; white-space: nowrap; cursor: pointer;
+    }
+    .btn-wa {
+      padding: 0.5rem 1.1rem;
+      background: var(--accent); color: #fff;
+    }
+    .btn-wa:hover { background: var(--accent-warm); transform: translateY(-1px); box-shadow: var(--sh-md); }
+    .btn-wa svg { width: 14px; height: 14px; }
+
+    .btn-primary {
+      padding: 0.875rem 1.75rem;
+      background: var(--accent); color: #fff; font-size: 0.9375rem;
+    }
+    .btn-primary:hover { background: var(--accent-warm); transform: translateY(-2px); box-shadow: var(--sh-lg); }
+    .btn-primary:active { transform: none; box-shadow: none; }
+    .btn-primary svg { width: 18px; height: 18px; }
+
+    .btn-ghost {
+      padding: 0.875rem 1.5rem;
+      border: 1px solid var(--border-str); color: var(--text-muted); font-size: 0.875rem;
+    }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+    .btn-ghost--inv {
+      border-color: rgba(237,228,212,0.22); color: rgba(237,228,212,0.6);
+    }
+    .btn-ghost--inv:hover { border-color: var(--accent-warm); color: var(--accent-warm); transform: translateY(-1px); }
+
+    /* WA icon SVG path reused */
+    .wa-path-1 { d: path("M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"); }
+
+    /* ─── HERO ───────────────────────────────────────────────── */
+    .hero {
+      min-height: 100svh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: clamp(2rem,5vw,5rem);
+      padding-top: clamp(6rem,12vw,8rem);
+      padding-bottom: clamp(4rem,8vw,6rem);
+    }
+    @media (max-width: 800px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 7rem; }
+    }
+
+    .hero__content { display: flex; flex-direction: column; gap: clamp(1.25rem,3vw,2rem); }
+
+    .hero__eyebrow {
+      display: flex; align-items: center; gap: 0.75rem;
+    }
+    .hero__eyebrow-line {
+      width: 28px; height: 1px; background: var(--accent); flex-shrink: 0;
+    }
+
+    .hero__h1 {
+      font-family: var(--font-d);
+      font-weight: 300;
+      font-size: clamp(2.8rem,6.5vw,5.75rem);
+      line-height: 1.03;
+      letter-spacing: -0.025em;
+    }
+
+    .hero__sub {
+      font-size: clamp(1.125rem,1.5vw,1.25rem);
+      color: var(--text-muted);
+      max-width: 36ch;
+      line-height: 1.72;
+    }
+
+    .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.875rem; }
+
+    .hero__meta {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 1.125rem; color: var(--text-faint); letter-spacing: 0.06em;
+    }
+    .hero__meta-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: var(--accent); opacity: 0.5;
+    }
+
+    /* Hero visual — postcard stack */
+    .hero__visual {
+      position: relative;
+      height: clamp(400px,58vw,600px);
+    }
+    @media (max-width: 800px) {
+      .hero__visual { height: 360px; order: -1; }
+    }
+
+    .postcard {
+      position: absolute;
+      border-radius: var(--r-lg);
+      overflow: hidden;
+      box-shadow: var(--sh-lg);
+    }
+    .postcard--main {
+      width: 73%; height: 86%;
+      top: 7%; right: 0; z-index: 2;
+    }
+    .postcard--back {
+      width: 57%; height: 70%;
+      top: 0; left: 0; z-index: 1; opacity: 0.88;
+    }
+    .postcard img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* Corner fold decoration */
+    .postcard--back::after {
+      content: '';
+      position: absolute; bottom: 0; right: 0;
+      width: 30px; height: 30px;
+      background: linear-gradient(225deg, var(--bg) 50%, transparent 50%);
+    }
+
+    .postcard__badge {
+      position: absolute; bottom: 1.1rem; left: 1.1rem; z-index: 3;
+      background: rgba(245,237,224,0.92); backdrop-filter: blur(10px);
+      border: 1px solid var(--border-mid); border-radius: var(--r);
+      padding: 0.55rem 0.875rem;
+    }
+    [data-theme="dark"] .postcard__badge {
+      background: rgba(26,23,20,0.92);
+    }
+    .postcard__badge-label {
+      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--text-faint); margin-bottom: 0.1rem;
+    }
+    .postcard__badge-val {
+      font-family: var(--font-d); font-size: 0.9rem; font-weight: 500; color: var(--text);
+    }
+
+    /* Animated pulse dot */
+    .pulse-dot {
+      position: absolute;
+      width: 10px; height: 10px; border-radius: 50%;
+      background: var(--accent); border: 2px solid var(--bg);
+      top: 44%; left: 46%; z-index: 4;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse-dot { animation: pulse 2.8s ease-in-out infinite 1.8s; }
+    }
+    @keyframes pulse {
+      0%,100% { transform:scale(1); box-shadow: 0 0 0 0 rgba(196,98,45,0.35); }
+      50%      { transform:scale(1.2); box-shadow: 0 0 0 8px rgba(196,98,45,0); }
+    }
+
+    /* ─── SECTION HEADERS ──────────────────────────────────── */
+    .sh { display: flex; flex-direction: column; gap: 0.7rem; margin-bottom: clamp(2rem,5vw,3.5rem); }
+    .sh--center { align-items: center; text-align: center; }
+
+    /* ─── WHY ALEX ─────────────────────────────────────────── */
+    .why { background: var(--bg-2); }
+
+    .why__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.5px; background: var(--border-mid);
+      border: 1.5px solid var(--border-mid); border-radius: var(--r-lg); overflow: hidden;
+    }
+
+    .tc {
+      background: var(--surface);
+      padding: clamp(1.5rem,3vw,2.25rem);
+      display: flex; flex-direction: column; gap: 0.875rem;
+      position: relative;
+      transition: background 0.25s var(--ease);
+    }
+    .tc:hover { background: var(--surface-2); }
+
+    .tc__n {
+      position: absolute; top: 1.5rem; right: 1.75rem;
+      font-family: var(--font-d); font-size: 0.875rem; font-weight: 500;
+      color: var(--accent); letter-spacing: 0.08em; opacity: 0.35;
+    }
+    .tc__icon { width: 36px; height: 36px; color: var(--accent); }
+    .tc__icon svg { width: 24px; height: 24px; }
+    .tc h3 {
+      font-family: var(--font-d); font-size: clamp(1.05rem,1.8vw,1.3rem);
+      font-weight: 400; line-height: 1.25;
+    }
+    .tc p { font-size: 0.9375rem; color: var(--text-muted); line-height: 1.65; }
+
+    /* ─── CARE ──────────────────────────────────────────────── */
+    .care__split {
+      display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg, 1.75rem);
+    }
+    @media (max-width: 680px) { .care__split { grid-template-columns: 1fr; } }
+
+    .cb {
+      border: 1px solid var(--border-mid); border-radius: var(--r-lg);
+      overflow: hidden; background: var(--surface);
+      display: flex; flex-direction: column;
+      transition: box-shadow 0.3s var(--ease), transform 0.3s var(--ease);
+    }
+    .cb:hover { box-shadow: var(--sh-md); transform: translateY(-3px); }
+
+    .cb__img {
+      height: clamp(210px,28vw,320px); overflow: hidden;
+    }
+    .cb__img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.65s var(--ease);
+    }
+    .cb:hover .cb__img img { transform: scale(1.04); }
+
+    .cb__body {
+      padding: clamp(1.25rem,3vw,2rem);
+      display: flex; flex-direction: column; gap: 0.875rem; flex: 1;
+    }
+    .cb__tag {
+      font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--accent);
+    }
+    .cb h3 { font-family: var(--font-d); font-size: clamp(1.2rem,2vw,1.6rem); font-weight: 400; line-height: 1.2; }
+    .care-list { display: flex; flex-direction: column; gap: 0.45rem; }
+    .care-list li {
+      display: flex; align-items: flex-start; gap: 0.6rem;
+      font-size: 0.9375rem; color: var(--text-muted);
+    }
+    .care-list li::before {
+      content: '›'; color: var(--accent); flex-shrink: 0; margin-top: 0.05rem; font-weight: 400;
+    }
+
+    /* ─── ASIA — SIGNATURE MOMENT ──────────────────────────── */
+    .asia {
+      background: var(--panel-bg); color: var(--panel-fg);
+      overflow: hidden; position: relative;
+      padding: clamp(5rem,10vw,8rem) 0;
+    }
+    .asia .eyebrow { color: rgba(237,228,212,0.4); }
+    .asia .d-lg { color: var(--panel-fg); }
+    .asia em { color: var(--accent-warm); }
+
+    .asia__grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem,6vw,5rem); align-items: center;
+    }
+    @media (max-width: 760px) { .asia__grid { grid-template-columns: 1fr; } }
+
+    .asia__text { display: flex; flex-direction: column; gap: 1.25rem; }
+    .asia__body {
+      font-size: 1.125rem; line-height: 1.78;
+      color: rgba(237,228,212,0.55); max-width: 38ch;
+    }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.25rem; }
+    .chip {
+      padding: 0.3rem 0.875rem;
+      border: 1px solid rgba(237,228,212,0.15); border-radius: 2rem;
+      font-size: 0.8125rem; color: rgba(237,228,212,0.5); letter-spacing: 0.04em;
+    }
+
+    .asia__world {
+      display: flex; align-items: center; gap: 0.75rem;
+      font-size: 0.875rem; color: rgba(237,228,212,0.3); margin-top: 0.25rem;
+    }
+    .asia__world-line { width: 22px; height: 1px; background: rgba(237,228,212,0.15); }
+
+    /* Decorative radial glow */
+    .asia::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 68% 50%, rgba(196,98,45,0.10) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    /* Route map SVG */
+    .asia__map {
+      position: relative;
+      height: clamp(260px,38vw,440px);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .route-svg { width: 100%; height: 100%; overflow: visible; }
+
+    .route-path {
+      fill: none; stroke: var(--accent-warm); stroke-width: 1.5;
+      stroke-dasharray: 700; stroke-dashoffset: 700;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 2.2s var(--ease);
+    }
+    .route-path.in { stroke-dashoffset: 0; }
+
+    .route-path-ghost {
+      fill: none; stroke: rgba(237,228,212,0.06); stroke-width: 1;
+      stroke-dasharray: 5 8; stroke-linecap: round;
+    }
+
+    .city-dot {
+      fill: var(--accent-warm);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .city-dot.in { opacity: 1; }
+    .city-label {
+      font-family: var(--font-b); font-size: 9.5px; font-weight: 400;
+      fill: rgba(237,228,212,0.4); letter-spacing: 0.12em; text-transform: uppercase;
+    }
+    .city-label-world {
+      font-family: var(--font-b); font-size: 8.5px;
+      fill: rgba(237,228,212,0.18); letter-spacing: 0.1em; text-transform: uppercase;
+    }
+
+    /* ─── STEPS ─────────────────────────────────────────────── */
+    .steps { background: var(--bg-2); }
+
+    .steps__grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1.5px; background: var(--border-mid);
+      border: 1.5px solid var(--border-mid); border-radius: var(--r-lg); overflow: hidden;
+    }
+    @media (max-width: 800px) { .steps__grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 460px) { .steps__grid { grid-template-columns: 1fr; } }
+
+    .step {
+      background: var(--surface); padding: clamp(1.5rem,3vw,2.25rem);
+      display: flex; flex-direction: column; gap: 1.1rem;
+      transition: background 0.25s;
+    }
+    .step:hover { background: var(--surface-2); }
+    .step__n {
+      font-family: var(--font-d); font-size: clamp(2.2rem,4vw,3.25rem);
+      font-weight: 300; line-height: 1; color: var(--accent); opacity: 0.55;
+    }
+    .step h3 { font-family: var(--font-d); font-size: 1.1rem; font-weight: 400; }
+    .step p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─── TRUST ─────────────────────────────────────────────── */
+    .trust__layout {
+      display: grid; grid-template-columns: 1.15fr 1fr;
+      gap: clamp(2rem,5vw,4rem); align-items: start;
+    }
+    @media (max-width: 760px) { .trust__layout { grid-template-columns: 1fr; } }
+
+    .tframe { position: relative; }
+    .tframe::before {
+      content: '';
+      position: absolute; top: -11px; left: -11px; right: 11px; bottom: 11px;
+      border: 1px solid var(--border-mid); border-radius: var(--r-lg);
+      pointer-events: none; z-index: 0;
+    }
+
+    .tcard {
+      position: relative; z-index: 1;
+      background: var(--surface); border: 1px solid var(--border-str);
+      border-radius: var(--r-lg); padding: clamp(1.5rem,3vw,2.5rem);
+      box-shadow: var(--sh-md);
+    }
+    .tcard__q {
+      font-family: var(--font-d); font-size: clamp(1.05rem,1.8vw,1.4rem);
+      font-weight: 300; font-style: italic; line-height: 1.55; color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+    .tcard__q::before {
+      content: '\201C';
+      font-size: 2.75rem; line-height: 0; vertical-align: -0.45rem;
+      color: var(--accent); margin-right: 0.2rem; font-style: normal;
+    }
+    .tcard__attr { display: flex; align-items: center; gap: 0.75rem; }
+    .tcard__av {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: var(--accent-light); display: flex; align-items: center; justify-content: center;
+      color: var(--accent); font-family: var(--font-d); font-size: 0.9rem; flex-shrink: 0;
+    }
+    .tcard__name { font-size: 0.875rem; font-weight: 500; }
+    .tcard__loc { font-size: 0.8rem; color: var(--text-faint); }
+
+    .signals { display: flex; flex-direction: column; gap: 1.1rem; padding-top: 0.75rem; }
+    .sig {
+      display: flex; align-items: flex-start; gap: 1rem;
+      padding-bottom: 1.1rem; border-bottom: 1px solid var(--border);
+    }
+    .sig:last-child { border-bottom: none; padding-bottom: 0; }
+    .sig__icon {
+      width: 34px; height: 34px; flex-shrink: 0; border-radius: var(--r);
+      background: var(--accent-light); display: flex; align-items: center;
+      justify-content: center; color: var(--accent); margin-top: 0.1rem;
+    }
+    .sig__icon svg { width: 16px; height: 16px; }
+    .sig__title { font-size: 0.9375rem; font-weight: 500; margin-bottom: 0.25rem; }
+    .sig__body { font-size: 0.875rem; color: var(--text-muted); line-height: 1.55; }
+
+    /* ─── REVIEWS ───────────────────────────────────────────── */
+    .reviews__wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(3rem, 6vw, 5rem);
+      align-items: center;
+      padding: clamp(2rem, 4vw, 4rem) clamp(1.25rem, 5vw, 3rem);
+    }
+
+    .reviews__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      width: 100%;
+      max-width: var(--max-w);
+    }
+    @media (max-width: 680px) { .reviews__grid { grid-template-columns: 1fr; } }
+
+    .reviews__sidebar {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      text-align: center;
+      padding: clamp(2rem, 4vw, 3rem);
+      max-width: var(--max-w);
+    }
+
+    .reviews__link {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+      transition: opacity 0.2s;
+    }
+    .reviews__link:hover {
+      opacity: 0.8;
+    }
+
+    .review-card {
+      background: var(--surface);
+      border: 1px solid var(--border-mid);
+      border-radius: var(--r-lg);
+      padding: clamp(1.5rem,3vw,2rem);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: box-shadow 0.3s var(--ease), transform 0.3s var(--ease);
+    }
+    .review-card:hover { box-shadow: var(--sh-md); transform: translateY(-2px); }
+
+    .review-card__stars {
+      font-size: 0.9rem; letter-spacing: 0.1em; color: var(--accent);
+    }
+    .review-card__text {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      flex: 1;
+    }
+    .review-card__attr {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+    .review-card__attr strong {
+      font-weight: 500; font-size: 0.9375rem;
+    }
+    .review-card__date {
+      font-size: 0.8rem;
+      color: var(--text-faint);
+    }
+
+    /* ─── ABOUT ─────────────────────────────────────────────── */
+    .about { background: var(--bg-2); }
+
+    .about__grid {
+      display: grid; grid-template-columns: 1fr 1.4fr;
+      gap: clamp(2rem,5vw,4rem); align-items: center;
+    }
+    @media (max-width: 760px) { .about__grid { grid-template-columns: 1fr; } }
+
+    .about__portrait { position: relative; }
+    .about__img {
+      width: 100%; height: clamp(340px,48vw,500px);
+      object-fit: cover; border-radius: var(--r-lg); display: block;
+    }
+    .about__cap {
+      position: absolute; bottom: 1.1rem; right: 1.1rem;
+      background: rgba(245,237,224,0.92); backdrop-filter: blur(10px);
+      border: 1px solid var(--border-mid); border-radius: var(--r);
+      padding: 0.55rem 0.875rem;
+    }
+    [data-theme="dark"] .about__cap { background: rgba(26,23,20,0.92); }
+
+    .about__text { display: flex; flex-direction: column; gap: 1.25rem; }
+    .about p { font-size: clamp(1rem,1.4vw,1.1rem); color: var(--text-muted); line-height: 1.82; }
+
+    /* ─── FINAL CTA ─────────────────────────────────────────── */
+    .fcta {
+      background: var(--panel-bg); color: var(--panel-fg);
+      padding: clamp(5rem,10vw,8rem) 0; text-align: center;
+    }
+    .fcta .d-lg { color: var(--panel-fg); }
+    .fcta em { color: var(--accent-warm); }
+
+    .fcta__inner {
+      display: flex; flex-direction: column; align-items: center;
+      gap: clamp(1.25rem,3vw,2rem); max-width: 580px; margin: 0 auto;
+    }
+    .fcta__sub {
+      font-size: 1.125rem; color: rgba(237,228,212,0.5); line-height: 1.75;
+    }
+    .fcta__btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.875rem; }
+    .fcta__note { font-size: 0.9375rem; color: rgba(237,228,212,0.28); letter-spacing: 0.05em; }
+
+    /* ─── FOOTER ─────────────────────────────────────────────── */
+    .footer {
+      background: var(--bg); padding: 1.75rem 0;
+      border-top: 1px solid var(--border);
+    }
+    .footer__row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; flex-wrap: wrap;
+    }
+    .footer__copy { font-size: 0.9375rem; color: var(--text-faint); }
+    .footer__wa {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.9375rem; color: var(--accent); font-weight: 500;
+      transition: opacity 0.2s;
+    }
+    .footer__wa:hover { opacity: 0.7; }
+
+    /* ─── FOCUS ─────────────────────────────────────────────── */
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+    /* ─── SCROLLBAR ─────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border-str); border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+  <a href="#main" class="skip">Skip to main content</a>
+
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <header class="hdr" id="hdr" role="banner">
+    <div class="wrap">
+      <div class="hdr__row">
+        <a href="#" class="wordmark" aria-label="Alex Nodelman — Home">
+          Alex Nodelman<span class="wordmark__dot" aria-hidden="true"></span>
+        </a>
+
+        <nav class="nav" aria-label="Site navigation">
+          <a href="#why">Why Alex</a>
+          <a href="#care">Experience</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#about">About</a>
+        </nav>
+
+        <div class="hdr__end">
+          <button class="btn-theme" id="theme-btn" aria-label="Toggle dark mode">
+            <!-- sun -->
+            <svg id="ico-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+            </svg>
+            <!-- moon -->
+            <svg id="ico-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true" style="display:none">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+
+          <a href="https://wa.me/972523949964?text=Hi%20Alex%2C%20I%E2%80%99m%20looking%20for%20a%20pet%20or%20house%20sitter."
+             class="btn btn-wa"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Contact Alex on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            </svg>
+            Message Alex
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ── HERO ───────────────────────────────────────────────── -->
+    <section class="hero wrap" aria-label="Introduction">
+
+      <div class="hero__content">
+        <div class="hero__eyebrow pc-arrive" style="--d:0.1s">
+          <span class="eyebrow eyebrow--accent">Pet & House Sitter / Asia & Worldwide</span>
+        </div>
+
+        <h1 class="hero__h1 pc-arrive" style="--d:0.2s">
+          Your home.<br>Your pets.<br><em>In good hands.</em>
+        </h1>
+
+        <p class="hero__sub pc-arrive" style="--d:0.35s">
+          Digital nomad with 3+ years experience. 8 verified reviews. Video editor by trade, pet sitter by passion. Available across Asia, Europe, and beyond.
+        </p>
+
+        <div class="hero__cta pc-arrive" style="--d:0.5s">
+          <a href="https://wa.me/972523949964?text=Hi%20Alex%2C%20I%E2%80%99m%20looking%20for%20a%20pet%20or%20house%20sitter."
+             class="btn btn-primary"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Message Alex on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            </svg>
+            Message on WhatsApp
+          </a>
+          <a href="#why" class="btn btn-ghost">Learn more</a>
+        </div>
+
+        <div class="hero__meta pc-arrive" style="--d:0.65s" aria-hidden="true">
+          <div class="hero__meta-dot"></div>
+          Southeast Asia
+          <div class="hero__meta-dot"></div>
+          8 verified reviews
+          <div class="hero__meta-dot"></div>
+          Video Editor
+        </div>
+      </div>
+
+      <!-- Postcard Stack -->
+      <div class="hero__visual" aria-hidden="true">
+        <div class="postcard postcard--back pc-arrive" style="--rot:-4.5deg; --d:0.3s">
+          <img
+            src="./images/alex-outdoor-walk-with-fluffy-white-dog-alex-nodelman-alexnodelman.webp"
+            alt="Alex on an outdoor walk with a large fluffy white dog"
+            loading="eager"
+          />
+        </div>
+        <div class="postcard postcard--main pc-arrive" style="--rot:2deg; --d:0.52s">
+          <img
+            src="./images/alex-resting-with-tabby-cat-cozy-moment-alex-nodelman-alexnodelman.webp"
+            alt="Alex resting while a tabby cat sleeps contentedly on his shoulder"
+            loading="eager"
+          />
+          <div class="postcard__badge">
+            <div class="postcard__badge-label">Asia & Beyond</div>
+            <div class="postcard__badge-val">Trusted Sitter</div>
+          </div>
+        </div>
+        <div class="pulse-dot" role="presentation"></div>
+      </div>
+
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── WHY ALEX ──────────────────────────────────────────── -->
+    <section class="why" id="why" aria-labelledby="why-h">
+      <div class="wrap">
+        <div class="sh">
+          <span class="eyebrow pc-up">Why Alex</span>
+          <h2 class="d-lg pc-up" id="why-h" style="--d:0.1s">What makes<br><em>the difference</em></h2>
+        </div>
+
+        <div class="why__grid">
+          <div class="tc pc-up" style="--d:0.0s">
+            <span class="tc__n" aria-hidden="true">01</span>
+            <div class="tc__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75"/>
+              </svg>
+            </div>
+            <h3>Meticulous with your home</h3>
+            <p>Returns everything tidy and in order. From long sits to quick getaways, your home is treated with genuine care and respect.</p>
+          </div>
+
+          <div class="tc pc-up" style="--d:0.1s">
+            <span class="tc__n" aria-hidden="true">02</span>
+            <div class="tc__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+              </svg>
+            </div>
+            <h3>Genuinely comfortable with animals</h3>
+            <p>At ease with cats, dogs of all sizes, and the individual personalities that come with them. Pets sense calm. Alex brings that naturally.</p>
+          </div>
+
+          <div class="tc pc-up" style="--d:0.2s">
+            <span class="tc__n" aria-hidden="true">03</span>
+            <div class="tc__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/>
+              </svg>
+            </div>
+            <h3>Communicates clearly, every day</h3>
+            <p>Regular updates, honest check-ins, and photo reports. You'll travel knowing exactly how your home and pets are doing.</p>
+          </div>
+
+          <div class="tc pc-up" style="--d:0.3s">
+            <span class="tc__n" aria-hidden="true">04</span>
+            <div class="tc__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253"/>
+              </svg>
+            </div>
+            <h3>Travelled widely, trusted repeatedly</h3>
+            <p>Asia-based digital nomad with sits across Thailand, France, UK, Vietnam, and beyond. Proven track record across continents and cultures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── CARE ──────────────────────────────────────────────── -->
+    <section id="care" aria-labelledby="care-h">
+      <div class="wrap">
+        <div class="sh">
+          <span class="eyebrow pc-up">What Alex offers</span>
+          <h2 class="d-lg pc-up" id="care-h" style="--d:0.1s">
+            Pet care &amp; home care,<br><em>done properly.</em>
+          </h2>
+        </div>
+
+        <div class="care__split">
+          <div class="cb pc-left">
+            <div class="cb__img">
+              <img
+                src="./images/alex-selfie-collage-with-tuxedo-cat-alex-nodelman-alexnodelman.webp"
+                alt="Alex with a tuxedo cat — a warm collage showing easy familiarity with cats"
+                loading="lazy"
+              />
+            </div>
+            <div class="cb__body">
+              <div class="cb__tag">🐱 Pet Care</div>
+              <h3>Cats, dogs,<br>and everything in between</h3>
+              <ul class="care-list">
+                <li>Dogs, puppies, senior dogs</li>
+                <li>Cats, kittens, and senior cats</li>
+                <li>Poultry and other animals</li>
+                <li>Administering medication</li>
+                <li>Video and photo updates on request</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cb pc-right" style="--d:0.15s">
+            <div class="cb__img">
+              <img
+                src="./images/alex-smiling-with-golden-dog-indoors-alex-nodelman-alexnodelman.webp"
+                alt="Alex smiling warmly with a golden dog at home — relaxed and genuinely happy"
+                loading="lazy"
+              />
+            </div>
+            <div class="cb__body">
+              <div class="cb__tag">🏡 Home Care</div>
+              <h3>Your home,<br>looked after with care</h3>
+              <ul class="care-list">
+                <li>General tidiness and regular cleaning</li>
+                <li>Plant watering and light maintenance</li>
+                <li>Mail and parcel handling</li>
+                <li>Security checks and window management</li>
+                <li>Any specific routines you need</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── ASIA FIRST — SIGNATURE MOMENT ─────────────────────── -->
+    <section class="asia" id="asia" aria-labelledby="asia-h">
+      <div class="wrap">
+        <div class="asia__grid">
+
+          <div class="asia__text">
+            <span class="eyebrow pc-up">Where Alex travels</span>
+            <h2 class="d-lg pc-up" id="asia-h" style="--d:0.1s">
+              Digital nomad<br><em>with global reach.</em>
+            </h2>
+            <p class="asia__body pc-up" style="--d:0.2s">
+              Asia-based digital nomad. Recent sits include Thailand, Vietnam, France, and the UK. Currently available across 50+ countries worldwide. Flexibility and adaptability built in.
+            </p>
+
+            <div class="chips pc-up" style="--d:0.3s">
+              <span class="chip">Thailand</span>
+              <span class="chip">Vietnam</span>
+              <span class="chip">France</span>
+              <span class="chip">United Kingdom</span>
+              <span class="chip">Indonesia</span>
+              <span class="chip">+ 50+ more countries</span>
+            </div>
+
+            <div class="asia__world pc-up" style="--d:0.4s">
+              <div class="asia__world-line" aria-hidden="true"></div>
+              Open to worldwide sits: Europe, Australia, the Americas, and beyond.
+            </div>
+
+            <div class="pc-up" style="--d:0.5s; margin-top:0.5rem">
+              <a href="https://wa.me/972523949964?text=Hi%20Alex%2C%20I%E2%80%99m%20looking%20for%20a%20pet%20or%20house%20sitter."
+                 class="btn btn-primary"
+                 target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+                </svg>
+                Enquire About Your Dates
+              </a>
+            </div>
+          </div>
+
+          <!-- Animated Route — the standout moment -->
+          <div class="asia__map" aria-hidden="true">
+            <svg class="route-svg" viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background ghost latitude lines -->
+              <line x1="20" y1="100" x2="380" y2="100" stroke="rgba(237,228,212,0.04)" stroke-width="1"/>
+              <line x1="20" y1="180" x2="380" y2="180" stroke="rgba(237,228,212,0.04)" stroke-width="1"/>
+              <line x1="20" y1="260" x2="380" y2="260" stroke="rgba(237,228,212,0.04)" stroke-width="1"/>
+
+              <!-- Ghost continuation — worldwide -->
+              <path class="route-path-ghost"
+                d="M 200 295 C 175 315, 140 320, 105 305 C 70 290, 48 260, 30 225"
+              />
+              <text class="city-label-world" x="18" y="222">+ worldwide</text>
+
+              <!-- Main animated route through Asia -->
+              <path class="route-path" id="r-main"
+                d="M 90 95 C 115 75, 150 80, 185 100 C 215 118, 225 150, 255 142 C 285 134, 305 108, 330 118 C 355 128, 360 158, 348 188 C 336 218, 305 228, 280 250 C 255 272, 245 294, 200 295"
+              />
+
+              <!-- Origin dot -->
+              <circle cx="90" cy="95" r="5" fill="none" stroke="rgba(237,228,212,0.18)" stroke-width="1"/>
+              <circle cx="90" cy="95" r="2.5" fill="rgba(237,228,212,0.25)"/>
+
+              <!-- City dots (revealed after path draws) -->
+              <circle class="city-dot" id="cd-bkk" cx="185" cy="100" r="4.5"/>
+              <text class="city-label" x="193" y="104">Bangkok</text>
+
+              <circle class="city-dot" id="cd-sg" cx="255" cy="142" r="4.5"/>
+              <text class="city-label" x="263" y="146">Singapore</text>
+
+              <circle class="city-dot" id="cd-tk" cx="330" cy="118" r="4.5"/>
+              <text class="city-label" x="338" y="122">Tokyo</text>
+
+              <circle class="city-dot" id="cd-bl" cx="280" cy="250" r="4.5"/>
+              <text class="city-label" x="288" y="254">Bali</text>
+
+              <circle class="city-dot" id="cd-hcm" cx="200" cy="295" r="4.5"/>
+              <text class="city-label" x="128" y="310">Ho Chi Minh</text>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── HOW IT WORKS ──────────────────────────────────────── -->
+    <section class="steps" id="how" aria-labelledby="steps-h">
+      <div class="wrap">
+        <div class="sh sh--center">
+          <span class="eyebrow pc-up">Simple process</span>
+          <h2 class="d-lg pc-up" id="steps-h" style="--d:0.1s">How it works</h2>
+        </div>
+
+        <div class="steps__grid">
+          <div class="step pc-up" style="--d:0.0s">
+            <div class="step__n" aria-hidden="true">1</div>
+            <h3>Get in touch</h3>
+            <p>Send Alex a message on WhatsApp with your dates, location, and what your home needs. Quick to respond, easy to communicate with.</p>
+          </div>
+          <div class="step pc-up" style="--d:0.1s">
+            <div class="step__n" aria-hidden="true">2</div>
+            <h3>Have a conversation</h3>
+            <p>A short call or chat to discuss your expectations, your pets' routines, and any specific needs. No forms, no platforms required.</p>
+          </div>
+          <div class="step pc-up" style="--d:0.2s">
+            <div class="step__n" aria-hidden="true">3</div>
+            <h3>Confirm the sit</h3>
+            <p>Agree on dates, a meet-and-greet if helpful, and make sure everything feels right before you hand over the keys.</p>
+          </div>
+          <div class="step pc-up" style="--d:0.3s">
+            <div class="step__n" aria-hidden="true">4</div>
+            <h3>Travel with peace of mind</h3>
+            <p>Regular photo updates, honest communication, and a home returned exactly as you left it. Simple as that.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── TRUST SIGNALS ─────────────────────────────────────── -->
+    <section id="trust" aria-labelledby="trust-h">
+      <div class="wrap">
+        <div class="sh">
+          <span class="eyebrow pc-up">What homeowners say</span>
+          <h2 class="d-lg pc-up" id="trust-h" style="--d:0.1s">Trust built<br><em>one sit at a time.</em></h2>
+        </div>
+
+        <div class="trust__layout">
+          <div class="tframe pc-left">
+            <div class="tcard">
+              <blockquote>
+                <p class="tcard__q">He sent me pictures and videos anytime I asked. My dog was having so much fun. Alex asked lots of questions about the best care, and took complete care of everything. I could have my vacation carefree.</p>
+              </blockquote>
+              <div class="tcard__attr">
+                <div class="tcard__av" aria-hidden="true">R</div>
+                <div>
+                  <div class="tcard__name">Raphael</div>
+                  <div class="tcard__loc">3-week sit, 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="signals pc-right">
+            <div class="sig">
+              <div class="sig__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sig__title">Responsive and communicative</div>
+                <p class="sig__body">Questions answered promptly. Daily check-ins without needing to ask. You'll always know things are fine.</p>
+              </div>
+            </div>
+
+            <div class="sig">
+              <div class="sig__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sig__title">Reliable and punctual</div>
+                <p class="sig__body">On time, every time. Careful handovers and no last-minute surprises. The logistics just work.</p>
+              </div>
+            </div>
+
+            <div class="sig">
+              <div class="sig__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sig__title">Your home, treated with respect</div>
+                <p class="sig__body">Security conscious, discreet, and trustworthy. You'll return to a home that feels cared for, not just occupied.</p>
+              </div>
+            </div>
+
+            <div class="sig">
+              <div class="sig__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sig__title">Daily photo updates included</div>
+                <p class="sig__body">Regular photos of your pets and home. Proof that everything is well, and often the highlight of your trip.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── VERIFIED REVIEWS ─────────────────────────────────── -->
+    <section id="reviews" aria-labelledby="reviews-h">
+      <div class="wrap">
+        <div class="sh">
+          <span class="eyebrow pc-up">8 verified reviews</span>
+          <h2 class="d-lg pc-up" id="reviews-h" style="--d:0.1s">What homeowners<br><em>actually say.</em></h2>
+        </div>
+      </div>
+
+      <div class="reviews__wrapper">
+          <div class="reviews__grid">
+          <div class="review-card pc-up" style="--d:0.0s">
+            <div class="review-card__stars" aria-hidden="true">★★★★★</div>
+            <p class="review-card__text">My cat became very good friends with Alex. He sent me pictures when I asked, and when I came home my cat was very relaxed and happy. The house was left clean. I've since booked him again.</p>
+            <div class="review-card__attr">
+              <strong>Paz</strong>
+              <span class="review-card__date">April 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card pc-up" style="--d:0.1s">
+            <div class="review-card__stars" aria-hidden="true">★★★★★</div>
+            <p class="review-card__text">Alex was reliable, arriving early to meet us and understand our needs. This was his second sit for us in 2 months. We couldn't be happier with the care.</p>
+            <div class="review-card__attr">
+              <strong>Alan</strong>
+              <span class="review-card__date">October 2025</span>
+            </div>
+          </div>
+
+          <div class="review-card pc-up" style="--d:0.2s">
+            <div class="review-card__stars" aria-hidden="true">★★★★★</div>
+            <p class="review-card__text">Alex was flexible, understanding, and easy to communicate with. My cat enjoyed her new roommate. Highly recommended.</p>
+            <div class="review-card__attr">
+              <strong>Katie</strong>
+              <span class="review-card__date">Chiang Mai, Dec 2025</span>
+            </div>
+          </div>
+
+          <div class="review-card pc-up" style="--d:0.3s">
+            <div class="review-card__stars" aria-hidden="true">★★★★★</div>
+            <p class="review-card__text">Alex was a perfect sitter and guest. Pepper and Jean were well cared for. The house was tidy and in order when we returned. Thanks Alexander.</p>
+            <div class="review-card__attr">
+              <strong>Lauren</strong>
+              <span class="review-card__date">Hanoi, Vietnam</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews__sidebar pc-up" style="--d:0.4s">
+          <p>Alexander is verified on <a href="https://www.trustedhousesitters.com/house-and-pet-sitters/israel/southern-district/ashdod/l/4613767/" target="_blank" rel="noopener noreferrer" class="reviews__link"><strong>Trusted House Sitters</strong></a>, a global community where homeowners connect with vetted pet and house sitters. All reviews above are from completed sits, verified by the platform.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── ABOUT ALEX ────────────────────────────────────────── -->
+    <section class="about" id="about" aria-labelledby="about-h">
+      <div class="wrap">
+        <div class="about__grid">
+
+          <div class="about__portrait pc-left">
+            <img
+              class="about__img"
+              src="./images/alex-with-golden-retriever-nuzzle-moment-alex-nodelman-alexnodelman.webp"
+              alt="Alex with a golden retriever nuzzling him — a candid, warm moment of genuine connection"
+              loading="lazy"
+            />
+            <div class="about__cap" aria-hidden="true">
+              <div class="postcard__badge-label">Alex Nodelman</div>
+              <div class="postcard__badge-val">Pet & House Sitter</div>
+            </div>
+          </div>
+
+          <div class="about__text">
+            <span class="eyebrow pc-up">About Alex</span>
+            <h2 class="d-lg pc-up" id="about-h" style="--d:0.1s">Alex<br><em>Video editor & pet sitter.</em></h2>
+            <p class="pc-up" style="--d:0.2s">
+              28 years old, based in Southeast Asia. Recent graduate who decided that working with animals and meeting people across the world was more valuable than a traditional office job. Started pet sitting friends' dogs and cats in college, and never looked back.
+            </p>
+            <p class="pc-up" style="--d:0.3s">
+              Professional video editor by trade, but genuinely more comfortable with animals than most people. With over 3 years of consistent sits and 8+ verified reviews across continents, every arrangement is treated as an opportunity to earn trust and make a real difference in someone's trip.
+            </p>
+            <div class="pc-up" style="--d:0.4s; margin-top: 0.5rem">
+              <a href="https://wa.me/972523949964?text=Hi%20Alex%2C%20I%E2%80%99m%20looking%20for%20a%20pet%20or%20house%20sitter."
+                 class="btn btn-primary"
+                 target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+                </svg>
+                Say Hello on WhatsApp
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── FINAL CTA ─────────────────────────────────────────── -->
+    <section class="fcta" aria-labelledby="fcta-h">
+      <div class="wrap">
+        <div class="fcta__inner">
+          <span class="eyebrow pc-up">Next steps</span>
+          <h2 class="d-lg pc-up" id="fcta-h" style="--d:0.1s">Book with<br><em>confidence.</em></h2>
+          <p class="fcta__sub pc-up" style="--d:0.2s">
+            8 verified reviews. 3+ years of sits across 4 continents. Message Alex on WhatsApp to check availability for your dates. Simple as that.
+          </p>
+          <div class="fcta__btns pc-up" style="--d:0.3s">
+            <a href="https://wa.me/972523949964?text=Hi%20Alex%2C%20I%E2%80%99m%20looking%20for%20a%20pet%20or%20house%20sitter."
+               class="btn btn-primary"
+               target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+              </svg>
+              Message Alex on WhatsApp
+            </a>
+            <a href="https://wa.me/972523949964"
+               class="btn btn-ghost btn-ghost--inv"
+               target="_blank" rel="noopener noreferrer">
+              Or just say hello →
+            </a>
+          </div>
+          <p class="fcta__note pc-up" style="--d:0.4s">
+            ID verified &nbsp;·&nbsp; Asia-based &nbsp;·&nbsp; 8 verified reviews
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <div class="footer__row">
+        <p class="footer__copy">Alexander / Video Editor / Digital Nomad / Pet & House Sitter</p>
+        <a href="https://wa.me/972523949964"
+           class="footer__wa"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Contact Alex on WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.556 4.112 1.528 5.838L.057 23.213a.75.75 0 0 0 .921.921l5.375-1.471A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.663-.522-5.176-1.432l-.371-.22-3.835 1.05 1.05-3.835-.22-.371A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          +972 52 394 9964
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── POSTCARD HOMECOMING SYSTEM — JavaScript ──────────────
+
+    // Dark mode
+    const themeBtn = document.getElementById('theme-btn');
+    const icoSun   = document.getElementById('ico-sun');
+    const icoMoon  = document.getElementById('ico-moon');
+    const root     = document.documentElement;
+
+    const saved = localStorage.getItem('an-theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    applyTheme(saved);
+
+    function applyTheme(t) {
+      root.setAttribute('data-theme', t);
+      localStorage.setItem('an-theme', t);
+      icoSun.style.display  = t === 'dark' ? 'none'  : 'block';
+      icoMoon.style.display = t === 'dark' ? 'block' : 'none';
+    }
+
+    themeBtn.addEventListener('click', () => {
+      applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // Header scroll state
+    const hdr = document.getElementById('hdr');
+    window.addEventListener('scroll', () => {
+      hdr.classList.toggle('scrolled', window.scrollY > 72);
+    }, { passive: true });
+
+    // Postcard arrive — IntersectionObserver
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!reduced) {
+      const selectors = '.pc-arrive, .pc-up, .pc-left, .pc-right, .pc-scale';
+
+      // Double rAF ensures the browser has painted the initial opacity:0 state
+      // before we add .in — without this, elements in-viewport on load skip the transition
+      function reveal(el) {
+        requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('in')));
+      }
+
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { reveal(e.target); obs.unobserve(e.target); }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+
+      document.querySelectorAll(selectors).forEach(el => obs.observe(el));
+
+      // Hero arrives on load with staggered delays baked into CSS --d vars
+      setTimeout(() => {
+        document.querySelectorAll('.hero .pc-arrive, .hero .pc-up').forEach(el => {
+          reveal(el);
+        });
+      }, 120);
+    }
+
+    // Route path draw — Asia signature moment
+    if (!reduced) {
+      const routePath = document.getElementById('r-main');
+      const cityDots  = document.querySelectorAll('.city-dot');
+
+      const routeObs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+              routePath.classList.add('in');
+              cityDots.forEach((dot, i) => {
+                setTimeout(() => dot.classList.add('in'), 700 + i * 300);
+              });
+            }));
+            routeObs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      const asiaSection = document.getElementById('asia');
+      if (asiaSection) routeObs.observe(asiaSection);
+    }
+
+    // Smooth anchor scroll with header offset
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function(e) {
+        const id = this.getAttribute('href');
+        if (id === '#') return;
+        const target = document.querySelector(id);
+        if (!target) return;
+        e.preventDefault();
+        const offset = hdr.getBoundingClientRect().height + 16;
+        window.scrollTo({ top: target.getBoundingClientRect().top + scrollY - offset, behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
